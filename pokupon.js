@@ -6,7 +6,10 @@ $(document).ready(function(){
         var valueSelect = $('.select-searche').val();
 
         if(queryString == '' || valueSelect == '') {
-            $('#error').append('<div>Entry please correct value</div>')
+            $('#error').append('<div class="text-error">Entry please correct value</div>');
+            setTimeout(function(){
+                $('.text-error').remove();
+            }, 2000);
             return false;
         }
         
