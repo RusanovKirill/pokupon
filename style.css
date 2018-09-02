@@ -1,0 +1,18 @@
+.wrap-content {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: auto;
+    width: 50%;
+    padding: 20px 0 0 0;
+}
+.input-value {
+    outline: none;
+}
+#error {
+    text-align: center;
+    margin-top: 30px;
+}
+body {
+    background-color: #ccc !important;
+}
